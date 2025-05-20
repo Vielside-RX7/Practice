@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.spot-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.spot-list li {
+  padding: 10px;
+}
+
+.available {
+  background-color: #d4edda; /* Light green */
+}
+
+.occupied {
+  background-color: #f8d7da; /* Light red */
+}
+
+.toggle-mode {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.light-mode {
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
+}
+
+.dark-mode {
+  background-color: #333333; /* Dark background */
+  color: #ffffff; /* White text */
+}
