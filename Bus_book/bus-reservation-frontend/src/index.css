@@ -1,0 +1,179 @@
+/* ====== iOS-Inspired Dark Mode ====== 
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #1c1c1e;
+  color: #f2f2f7;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #0a84ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #409eff;
+}
+
+/* ====== Buttons ====== 
+
+button {
+  background: #0a84ff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.15s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+button:hover {
+  background: #409eff;
+  transform: scale(1.03);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* ====== Input & Select Fields ====== 
+
+input, select {
+  background: #2c2c2e;
+  color: #ffffff;
+  border: 1px solid #3a3a3c;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-size: 15px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #0a84ff;
+}
+
+/* ====== Card / Container ====== 
+
+.card {
+  background: #2c2c2e;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+/* ====== Emojis and Icons ====== 
+
+.emoji {
+  font-size: 1.4em;
+  margin-right: 8px;
+}
+
+/* ====== Flex Container for Buttons ====== 
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* ====== Transitions ====== 
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+*/
+/* index.css */
+
+:root {
+  --primary-color: #1db954;
+  --bg-dark: #121212;
+  --text-light: #ffffff;
+  --input-bg: #1e1e1e;
+  --card-bg: #1a1a1a;
+  --border-color: #333;
+  --highlight: #007aff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+}
+
+/* Generic buttons */
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #17a74a;
+}
+
+/* Inputs */
+input, select {
+  background-color: var(--input-bg);
+  color: white;
+  border: 1px solid var(--border-color);
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
